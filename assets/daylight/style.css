@@ -1,0 +1,60 @@
+       /* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: rgb(200,200,200);
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+  .btn-login{
+    width:250px;
+    padding: 20px;
+    font-size: 1.5em;
+  }
+  .btn-login2{
+    width:370px;
+    padding: 10px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+
+  .btn-logout{
+    width:250px;
+    padding: 20px;
+    font-size: 1.5em;
+  }
+
+  .rb-k:checked ~ {
+    .lbl-rb{background: maroon;color: white;}
+    
+  }
+  
+ #btn-menu:checked ~ nav ul li:hover {
+          background:black;
+        }
+  .btn-pilih{
+    padding: 25px;
+    width: 300px;
+    font-size: 1.8em;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
